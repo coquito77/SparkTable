@@ -1,0 +1,79 @@
+---
+title: "Untitled"
+date: "August 21, 2015"
+output:
+  pdf_document:
+    fig_caption: yes
+    keep_tex: yes
+---
+
+
+```{r, include=FALSE, cache=TRUE}
+
+library("knitr")
+
+opts_chunk$set(out.width='750px', dpi=200)
+
+library(sparkTable)
+data(AT_Soccer)
+
+content <- list(
+function(x) { sum(x) },
+function(x) { round(sum(x), 2) },
+function(x) { round(sum(x), 2) },
+newSparkLine(lineWidth = 2, pointWidth = 6), newSparkBar()
+)
+names(content) <- c("Points", "Shot Goal", "Get Goal", "Goal Diff", "Win/Lose")
+
+# set variables
+vars <- c("points", "shotgoal", "getgoal", "goaldiff", "wl")
+
+# create the sparkTable object
+stab <- newSparkTable(dataObj = AT_Soccer, tableContent = content, varType = vars)
+
+export(stab, outputType = "tex", filename = "first-stab",
+ graphNames = "first-stab")
+```
+
+
+```{r, include=FALSE, cache=TRUE}
+
+data(popEU,package="sparkTable")
+data(debtEU,package="sparkTable")
+data(coordsEU,package="sparkTable")
+popEU <- popEU[popEU$country%in%coordsEU$country,]
+debtEU <- debtEU[debtEU$country%in%coordsEU$country,]
+EU <- cbind(popEU,debtEU[,-1])
+EUlong <- reshapeExt(EU,
+  idvar="country",v.names=c("pop","debt"),
+  varying=list(2:13,14:25),geographicVar="country",timeValues=1999:2010
+)
+l <- newSparkLine()
+l <- setParameter(l, 'lineWidth', 2.5)
+content <- list(
+  function(x){"Population:"},
+  l,function(x){"Debt:"},l)
+varType <- c(rep("pop",2),rep("debt",2))
+xGeoEU <- newGeoTable(EUlong, content, varType,geographicVar="country",
+  geographicInfo=coordsEU)
+
+ export(xGeoEU, outputType="tex", graphNames="out1",
+  filename="testEU",transpose=TRUE)
+```
+
+
+
+![Caption for the picture.](testEU.pdf)
+
+\newpage
+
+This is a test of the emergency communications system
+
+\begin{figure}[htbp]
+\centering
+%trim option's parameter order: left bottom right top
+\includegraphics[trim = 70mm 110mm 70mm 40mm, clip, width=30cm]{first-stab.pdf}
+\caption{My Citation}
+\end{figure}
+
+ 

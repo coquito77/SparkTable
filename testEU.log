@@ -1,0 +1,645 @@
+This is LuaTeX, Version beta-0.76.0-2013062820 (rev 4627)  (format=lualatex 2015.2.23)  8 SEP 2015 21:19
+**testEU.tex
+(C:/Users/E551910/Desktop/sparkTableTest/testEU.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ara
+bic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, cr
+oatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
+ian, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, icelandic, 
+indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian, lith
+uanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, ngerman
+-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, ru
+ssian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerman, tami
+l, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
+elsh, loaded.
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/00miktex/graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/pdftex-def/pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+)
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/luatex-loader.sty"
+Package: luatex-loader 2010/03/09 v0.4 Lua module loader (HO)
+
+(C:/Program Files/MiKTeX 2.9/scripts/oberdiek/oberdiek.luatex.lua))
+\pdftexcmds@toks=\toks15
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/lm/lmodern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(C:/Users/E551910/Desktop/sparkTableTest/testEU.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 7.
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/lm/ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(C:/Users/E551910/AppData/Roaming/MiKTeX/2.9/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count88
+\scratchdimen=\dimen105
+\scratchbox=\box26
+\nofMPsegments=\count89
+\nofMParguments=\count90
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count91
+\MPscratchDim=\dimen106
+\MPnumerator=\count92
+\makeMPintoPDFobject=\count93
+\everyMPtoPDFconversion=\toks17
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 12.
+ ("C:/Program Files/MiKTeX 2.9/tex/latex/lm/omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 12.
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/lm/omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 12.
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/lm/omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 12.
+
+<out12-1-28.pdf, id=1, 252.945pt x 72.27pt>
+File: out12-1-28.pdf Graphic file (type pdf)
+ <use out12-1-28.pdf>
+Package pdftex.def Info: out12-1-28.pdf used on input line 16.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-30.pdf, id=2, 252.945pt x 72.27pt>
+File: out12-1-30.pdf Graphic file (type pdf)
+ <use out12-1-30.pdf>
+Package pdftex.def Info: out12-1-30.pdf used on input line 16.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-26.pdf, id=3, 252.945pt x 72.27pt>
+File: out12-1-26.pdf Graphic file (type pdf)
+ <use out12-1-26.pdf>
+Package pdftex.def Info: out12-1-26.pdf used on input line 16.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-25.pdf, id=4, 252.945pt x 72.27pt>
+File: out12-1-25.pdf Graphic file (type pdf)
+ <use out12-1-25.pdf>
+Package pdftex.def Info: out12-1-25.pdf used on input line 16.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-6.pdf, id=5, 252.945pt x 72.27pt>
+File: out12-1-6.pdf Graphic file (type pdf)
+ <use out12-1-6.pdf>
+Package pdftex.def Info: out12-1-6.pdf used on input line 16.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-28.pdf, id=6, 252.945pt x 72.27pt>
+File: out14-1-28.pdf Graphic file (type pdf)
+ <use out14-1-28.pdf>
+Package pdftex.def Info: out14-1-28.pdf used on input line 18.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-30.pdf, id=7, 252.945pt x 72.27pt>
+File: out14-1-30.pdf Graphic file (type pdf)
+ <use out14-1-30.pdf>
+Package pdftex.def Info: out14-1-30.pdf used on input line 18.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-26.pdf, id=8, 252.945pt x 72.27pt>
+File: out14-1-26.pdf Graphic file (type pdf)
+ <use out14-1-26.pdf>
+Package pdftex.def Info: out14-1-26.pdf used on input line 18.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-25.pdf, id=9, 252.945pt x 72.27pt>
+File: out14-1-25.pdf Graphic file (type pdf)
+ <use out14-1-25.pdf>
+Package pdftex.def Info: out14-1-25.pdf used on input line 18.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-6.pdf, id=10, 252.945pt x 72.27pt>
+File: out14-1-6.pdf Graphic file (type pdf)
+ <use out14-1-6.pdf>
+Package pdftex.def Info: out14-1-6.pdf used on input line 18.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-18.pdf, id=11, 252.945pt x 72.27pt>
+File: out12-1-18.pdf Graphic file (type pdf)
+ <use out12-1-18.pdf>
+Package pdftex.def Info: out12-1-18.pdf used on input line 22.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-5.pdf, id=12, 252.945pt x 72.27pt>
+File: out12-1-5.pdf Graphic file (type pdf)
+ <use out12-1-5.pdf>
+Package pdftex.def Info: out12-1-5.pdf used on input line 22.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-4.pdf, id=13, 252.945pt x 72.27pt>
+File: out12-1-4.pdf Graphic file (type pdf)
+ <use out12-1-4.pdf>
+Package pdftex.def Info: out12-1-4.pdf used on input line 22.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-14.pdf, id=14, 252.945pt x 72.27pt>
+File: out12-1-14.pdf Graphic file (type pdf)
+ <use out12-1-14.pdf>
+Package pdftex.def Info: out12-1-14.pdf used on input line 22.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-13.pdf, id=15, 252.945pt x 72.27pt>
+File: out12-1-13.pdf Graphic file (type pdf)
+ <use out12-1-13.pdf>
+Package pdftex.def Info: out12-1-13.pdf used on input line 22.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-18.pdf, id=16, 252.945pt x 72.27pt>
+File: out14-1-18.pdf Graphic file (type pdf)
+ <use out14-1-18.pdf>
+Package pdftex.def Info: out14-1-18.pdf used on input line 24.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-5.pdf, id=17, 252.945pt x 72.27pt>
+File: out14-1-5.pdf Graphic file (type pdf)
+ <use out14-1-5.pdf>
+Package pdftex.def Info: out14-1-5.pdf used on input line 24.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-4.pdf, id=18, 252.945pt x 72.27pt>
+File: out14-1-4.pdf Graphic file (type pdf)
+ <use out14-1-4.pdf>
+Package pdftex.def Info: out14-1-4.pdf used on input line 24.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-14.pdf, id=19, 252.945pt x 72.27pt>
+File: out14-1-14.pdf Graphic file (type pdf)
+ <use out14-1-14.pdf>
+Package pdftex.def Info: out14-1-14.pdf used on input line 24.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-13.pdf, id=20, 252.945pt x 72.27pt>
+File: out14-1-13.pdf Graphic file (type pdf)
+ <use out14-1-13.pdf>
+Package pdftex.def Info: out14-1-13.pdf used on input line 24.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-27.pdf, id=21, 252.945pt x 72.27pt>
+File: out12-1-27.pdf Graphic file (type pdf)
+ <use out12-1-27.pdf>
+Package pdftex.def Info: out12-1-27.pdf used on input line 28.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-7.pdf, id=22, 252.945pt x 72.27pt>
+File: out12-1-7.pdf Graphic file (type pdf)
+ <use out12-1-7.pdf>
+Package pdftex.def Info: out12-1-7.pdf used on input line 28.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-1.pdf, id=23, 252.945pt x 72.27pt>
+File: out12-1-1.pdf Graphic file (type pdf)
+ <use out12-1-1.pdf>
+Package pdftex.def Info: out12-1-1.pdf used on input line 28.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-3.pdf, id=24, 252.945pt x 72.27pt>
+File: out12-1-3.pdf Graphic file (type pdf)
+ <use out12-1-3.pdf>
+Package pdftex.def Info: out12-1-3.pdf used on input line 28.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-20.pdf, id=25, 252.945pt x 72.27pt>
+File: out12-1-20.pdf Graphic file (type pdf)
+ <use out12-1-20.pdf>
+Package pdftex.def Info: out12-1-20.pdf used on input line 28.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-24.pdf, id=26, 252.945pt x 72.27pt>
+File: out12-1-24.pdf Graphic file (type pdf)
+ <use out12-1-24.pdf>
+Package pdftex.def Info: out12-1-24.pdf used on input line 28.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-27.pdf, id=27, 252.945pt x 72.27pt>
+File: out14-1-27.pdf Graphic file (type pdf)
+ <use out14-1-27.pdf>
+Package pdftex.def Info: out14-1-27.pdf used on input line 30.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-7.pdf, id=28, 252.945pt x 72.27pt>
+File: out14-1-7.pdf Graphic file (type pdf)
+ <use out14-1-7.pdf>
+Package pdftex.def Info: out14-1-7.pdf used on input line 30.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-1.pdf, id=29, 252.945pt x 72.27pt>
+File: out14-1-1.pdf Graphic file (type pdf)
+ <use out14-1-1.pdf>
+Package pdftex.def Info: out14-1-1.pdf used on input line 30.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-3.pdf, id=30, 252.945pt x 72.27pt>
+File: out14-1-3.pdf Graphic file (type pdf)
+ <use out14-1-3.pdf>
+Package pdftex.def Info: out14-1-3.pdf used on input line 30.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-20.pdf, id=31, 252.945pt x 72.27pt>
+File: out14-1-20.pdf Graphic file (type pdf)
+ <use out14-1-20.pdf>
+Package pdftex.def Info: out14-1-20.pdf used on input line 30.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-24.pdf, id=32, 252.945pt x 72.27pt>
+File: out14-1-24.pdf Graphic file (type pdf)
+ <use out14-1-24.pdf>
+Package pdftex.def Info: out14-1-24.pdf used on input line 30.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-15.pdf, id=33, 252.945pt x 72.27pt>
+File: out12-1-15.pdf Graphic file (type pdf)
+ <use out12-1-15.pdf>
+Package pdftex.def Info: out12-1-15.pdf used on input line 34.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-31.pdf, id=34, 252.945pt x 72.27pt>
+File: out12-1-31.pdf Graphic file (type pdf)
+ <use out12-1-31.pdf>
+Package pdftex.def Info: out12-1-31.pdf used on input line 34.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-29.pdf, id=35, 252.945pt x 72.27pt>
+File: out12-1-29.pdf Graphic file (type pdf)
+ <use out12-1-29.pdf>
+Package pdftex.def Info: out12-1-29.pdf used on input line 34.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-19.pdf, id=36, 252.945pt x 72.27pt>
+File: out12-1-19.pdf Graphic file (type pdf)
+ <use out12-1-19.pdf>
+Package pdftex.def Info: out12-1-19.pdf used on input line 34.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-16.pdf, id=37, 252.945pt x 72.27pt>
+File: out12-1-16.pdf Graphic file (type pdf)
+ <use out12-1-16.pdf>
+Package pdftex.def Info: out12-1-16.pdf used on input line 34.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-22.pdf, id=38, 252.945pt x 72.27pt>
+File: out12-1-22.pdf Graphic file (type pdf)
+ <use out12-1-22.pdf>
+Package pdftex.def Info: out12-1-22.pdf used on input line 34.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-15.pdf, id=39, 252.945pt x 72.27pt>
+File: out14-1-15.pdf Graphic file (type pdf)
+ <use out14-1-15.pdf>
+Package pdftex.def Info: out14-1-15.pdf used on input line 36.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-31.pdf, id=40, 252.945pt x 72.27pt>
+File: out14-1-31.pdf Graphic file (type pdf)
+ <use out14-1-31.pdf>
+Package pdftex.def Info: out14-1-31.pdf used on input line 36.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-29.pdf, id=41, 252.945pt x 72.27pt>
+File: out14-1-29.pdf Graphic file (type pdf)
+ <use out14-1-29.pdf>
+Package pdftex.def Info: out14-1-29.pdf used on input line 36.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-19.pdf, id=42, 252.945pt x 72.27pt>
+File: out14-1-19.pdf Graphic file (type pdf)
+ <use out14-1-19.pdf>
+Package pdftex.def Info: out14-1-19.pdf used on input line 36.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-16.pdf, id=43, 252.945pt x 72.27pt>
+File: out14-1-16.pdf Graphic file (type pdf)
+ <use out14-1-16.pdf>
+Package pdftex.def Info: out14-1-16.pdf used on input line 36.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-22.pdf, id=44, 252.945pt x 72.27pt>
+File: out14-1-22.pdf Graphic file (type pdf)
+ <use out14-1-22.pdf>
+Package pdftex.def Info: out14-1-22.pdf used on input line 36.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-21.pdf, id=45, 252.945pt x 72.27pt>
+File: out12-1-21.pdf Graphic file (type pdf)
+ <use out12-1-21.pdf>
+Package pdftex.def Info: out12-1-21.pdf used on input line 40.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-10.pdf, id=46, 252.945pt x 72.27pt>
+File: out12-1-10.pdf Graphic file (type pdf)
+ <use out12-1-10.pdf>
+Package pdftex.def Info: out12-1-10.pdf used on input line 40.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-23.pdf, id=47, 252.945pt x 72.27pt>
+File: out12-1-23.pdf Graphic file (type pdf)
+ <use out12-1-23.pdf>
+Package pdftex.def Info: out12-1-23.pdf used on input line 40.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-32.pdf, id=48, 252.945pt x 72.27pt>
+File: out12-1-32.pdf Graphic file (type pdf)
+ <use out12-1-32.pdf>
+Package pdftex.def Info: out12-1-32.pdf used on input line 40.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-2.pdf, id=49, 252.945pt x 72.27pt>
+File: out12-1-2.pdf Graphic file (type pdf)
+ <use out12-1-2.pdf>
+Package pdftex.def Info: out12-1-2.pdf used on input line 40.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-33.pdf, id=50, 252.945pt x 72.27pt>
+File: out12-1-33.pdf Graphic file (type pdf)
+ <use out12-1-33.pdf>
+Package pdftex.def Info: out12-1-33.pdf used on input line 40.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-21.pdf, id=51, 252.945pt x 72.27pt>
+File: out14-1-21.pdf Graphic file (type pdf)
+ <use out14-1-21.pdf>
+Package pdftex.def Info: out14-1-21.pdf used on input line 42.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-10.pdf, id=52, 252.945pt x 72.27pt>
+File: out14-1-10.pdf Graphic file (type pdf)
+ <use out14-1-10.pdf>
+Package pdftex.def Info: out14-1-10.pdf used on input line 42.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-23.pdf, id=53, 252.945pt x 72.27pt>
+File: out14-1-23.pdf Graphic file (type pdf)
+ <use out14-1-23.pdf>
+Package pdftex.def Info: out14-1-23.pdf used on input line 42.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-32.pdf, id=54, 252.945pt x 72.27pt>
+File: out14-1-32.pdf Graphic file (type pdf)
+ <use out14-1-32.pdf>
+Package pdftex.def Info: out14-1-32.pdf used on input line 42.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-2.pdf, id=55, 252.945pt x 72.27pt>
+File: out14-1-2.pdf Graphic file (type pdf)
+ <use out14-1-2.pdf>
+Package pdftex.def Info: out14-1-2.pdf used on input line 42.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-33.pdf, id=56, 252.945pt x 72.27pt>
+File: out14-1-33.pdf Graphic file (type pdf)
+ <use out14-1-33.pdf>
+Package pdftex.def Info: out14-1-33.pdf used on input line 42.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-9.pdf, id=57, 252.945pt x 72.27pt>
+File: out12-1-9.pdf Graphic file (type pdf)
+ <use out12-1-9.pdf>
+Package pdftex.def Info: out12-1-9.pdf used on input line 46.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-11.pdf, id=58, 252.945pt x 72.27pt>
+File: out12-1-11.pdf Graphic file (type pdf)
+ <use out12-1-11.pdf>
+Package pdftex.def Info: out12-1-11.pdf used on input line 46.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-17.pdf, id=59, 252.945pt x 72.27pt>
+File: out12-1-17.pdf Graphic file (type pdf)
+ <use out12-1-17.pdf>
+Package pdftex.def Info: out12-1-17.pdf used on input line 46.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-8.pdf, id=60, 252.945pt x 72.27pt>
+File: out12-1-8.pdf Graphic file (type pdf)
+ <use out12-1-8.pdf>
+Package pdftex.def Info: out12-1-8.pdf used on input line 46.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out12-1-12.pdf, id=61, 252.945pt x 72.27pt>
+File: out12-1-12.pdf Graphic file (type pdf)
+ <use out12-1-12.pdf>
+Package pdftex.def Info: out12-1-12.pdf used on input line 46.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-9.pdf, id=62, 252.945pt x 72.27pt>
+File: out14-1-9.pdf Graphic file (type pdf)
+ <use out14-1-9.pdf>
+Package pdftex.def Info: out14-1-9.pdf used on input line 48.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-11.pdf, id=63, 252.945pt x 72.27pt>
+File: out14-1-11.pdf Graphic file (type pdf)
+ <use out14-1-11.pdf>
+Package pdftex.def Info: out14-1-11.pdf used on input line 48.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-17.pdf, id=64, 252.945pt x 72.27pt>
+File: out14-1-17.pdf Graphic file (type pdf)
+ <use out14-1-17.pdf>
+Package pdftex.def Info: out14-1-17.pdf used on input line 48.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-8.pdf, id=65, 252.945pt x 72.27pt>
+File: out14-1-8.pdf Graphic file (type pdf)
+ <use out14-1-8.pdf>
+Package pdftex.def Info: out14-1-8.pdf used on input line 48.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+<out14-1-12.pdf, id=66, 252.945pt x 72.27pt>
+File: out14-1-12.pdf Graphic file (type pdf)
+ <use out14-1-12.pdf>
+Package pdftex.def Info: out14-1-12.pdf used on input line 48.
+(pdftex.def)             Requested size: 41.1243pt x 11.74983pt.
+
+Overfull \hbox (71.289pt too wide) in paragraph at lines 12--51
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 91.7995pt on input line 52.
+
+[1{C:/Users/E551910/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users
+/E551910/Desktop/sparkTableTest/out12-1-28.pdf> <C:/Users/E551910/Desktop/sparkT
+ableTest/out12-1-30.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out12-1-26.pdf
+> <C:/Users/E551910/Desktop/sparkTableTest/out12-1-25.pdf> <C:/Users/E551910/Des
+ktop/sparkTableTest/out12-1-6.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out1
+4-1-28.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out14-1-30.pdf> <C:/Users/E
+551910/Desktop/sparkTableTest/out14-1-26.pdf> <C:/Users/E551910/Desktop/sparkTab
+leTest/out14-1-25.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out14-1-6.pdf> <
+C:/Users/E551910/Desktop/sparkTableTest/out12-1-18.pdf> <C:/Users/E551910/Deskto
+p/sparkTableTest/out12-1-5.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out12-1
+-4.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out12-1-14.pdf> <C:/Users/E5519
+10/Desktop/sparkTableTest/out12-1-13.pdf> <C:/Users/E551910/Desktop/sparkTableTe
+st/out14-1-18.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out14-1-5.pdf> <C:/U
+sers/E551910/Desktop/sparkTableTest/out14-1-4.pdf> <C:/Users/E551910/Desktop/spa
+rkTableTest/out14-1-14.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out14-1-13.
+pdf> <C:/Users/E551910/Desktop/sparkTableTest/out12-1-27.pdf> <C:/Users/E551910/
+Desktop/sparkTableTest/out12-1-7.pdf> <C:/Users/E551910/Desktop/sparkTableTest/o
+ut12-1-1.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out12-1-3.pdf> <C:/Users/
+E551910/Desktop/sparkTableTest/out12-1-20.pdf> <C:/Users/E551910/Desktop/sparkTa
+bleTest/out12-1-24.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out14-1-27.pdf>
+ <C:/Users/E551910/Desktop/sparkTableTest/out14-1-7.pdf> <C:/Users/E551910/Deskt
+op/sparkTableTest/out14-1-1.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out14-
+1-3.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out14-1-20.pdf> <C:/Users/E551
+910/Desktop/sparkTableTest/out14-1-24.pdf> <C:/Users/E551910/Desktop/sparkTableT
+est/out12-1-15.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out12-1-31.pdf> <C:
+/Users/E551910/Desktop/sparkTableTest/out12-1-29.pdf> <C:/Users/E551910/Desktop/
+sparkTableTest/out12-1-19.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out12-1-
+16.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out12-1-22.pdf> <C:/Users/E5519
+10/Desktop/sparkTableTest/out14-1-15.pdf> <C:/Users/E551910/Desktop/sparkTableTe
+st/out14-1-31.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out14-1-29.pdf> <C:/
+Users/E551910/Desktop/sparkTableTest/out14-1-19.pdf> <C:/Users/E551910/Desktop/s
+parkTableTest/out14-1-16.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out14-1-2
+2.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out12-1-21.pdf> <C:/Users/E55191
+0/Desktop/sparkTableTest/out12-1-10.pdf> <C:/Users/E551910/Desktop/sparkTableTes
+t/out12-1-23.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out12-1-32.pdf> <C:/U
+sers/E551910/Desktop/sparkTableTest/out12-1-2.pdf> <C:/Users/E551910/Desktop/spa
+rkTableTest/out12-1-33.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out14-1-21.
+pdf> <C:/Users/E551910/Desktop/sparkTableTest/out14-1-10.pdf> <C:/Users/E551910/
+Desktop/sparkTableTest/out14-1-23.pdf> <C:/Users/E551910/Desktop/sparkTableTest/
+out14-1-32.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out14-1-2.pdf> <C:/User
+s/E551910/Desktop/sparkTableTest/out14-1-33.pdf> <C:/Users/E551910/Desktop/spark
+TableTest/out12-1-9.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out12-1-11.pdf
+> <C:/Users/E551910/Desktop/sparkTableTest/out12-1-17.pdf> <C:/Users/E551910/Des
+ktop/sparkTableTest/out12-1-8.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out1
+2-1-12.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out14-1-9.pdf> <C:/Users/E5
+51910/Desktop/sparkTableTest/out14-1-11.pdf> <C:/Users/E551910/Desktop/sparkTabl
+eTest/out14-1-17.pdf> <C:/Users/E551910/Desktop/sparkTableTest/out14-1-8.pdf> <C
+:/Users/E551910/Desktop/sparkTableTest/out14-1-12.pdf>]
+(C:/Users/E551910/Desktop/sparkTableTest/testEU.aux) )
+
+Here is how much of LuaTeX's memory you used:
+ 1911 strings out of 494074
+ 100000,552014 words of node,token memory allocated
+ 266 words of node memory still in use:
+    nodes
+   avail lists: 2:20,3:203,4:2698,5:103,6:674,7:310,9:721,10:1
+ 5253 multiletter control sequences out of 65536+200000
+ 28 fonts using 794827 bytes
+ 34i,12n,23p,266b,360s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKT
+eX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb>
+Output written on testEU.pdf (1 page, 304403 bytes).
+
+PDF statistics: 416 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

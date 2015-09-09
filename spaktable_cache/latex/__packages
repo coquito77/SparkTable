@@ -1,0 +1,9 @@
+base
+knitr
+Cairo
+gridExtra
+ggplot2
+shiny
+slam
+Rglpk
+sparkTable
