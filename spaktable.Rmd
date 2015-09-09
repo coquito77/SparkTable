@@ -73,7 +73,7 @@ xGeoEU <- newGeoTable(EUlong, content, varType,geographicVar="country",
 \centering
 %trim option's parameter order: left bottom right top
 \includegraphics[trim = 70mm 110mm 70mm 40mm, clip, width=30cm]{first-stab.pdf}
-\caption{Test sparktable picture sample team data}
+\caption{Sparktable picture sample team data}
 \end{figure}
 
  
