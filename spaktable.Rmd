@@ -33,6 +33,9 @@ stab <- newSparkTable(dataObj = AT_Soccer, tableContent = content, varType = var
 
 export(stab, outputType = "tex", filename = "first-stab",
  graphNames = "first-stab")
+ 
+ # using latex furn the file 'first-stab' to create a picture of the table
+ # to insert in the final PDF doc
 ```
 
 
@@ -59,6 +62,9 @@ xGeoEU <- newGeoTable(EUlong, content, varType,geographicVar="country",
 
  export(xGeoEU, outputType="tex", graphNames="out1",
   filename="testEU",transpose=TRUE)
+  
+   # using latex furn the file 'testEU' to create a picture of the table
+ # to insert in the final PDF doc
 ```
 
 
